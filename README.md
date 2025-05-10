@@ -42,3 +42,27 @@ GROUP BY
     CO_ANO, CO_MES, SG_UF_NCM
 ORDER BY 
     CO_ANO DESC, CO_MES DESC, Total_VL_FOB DESC;
+
+
+## 🔍 ⚙️ Requisitos
+
+Python 3.8+
+
+Bibliotecas:
+
+pandas
+
+openpyxl
+
+sqlite3
+
+sqlalchemy (opcional, se desejar usar com to_sql)
+
+pip install pandas openpyxl
+
+## 🚀 Como Executar
+
+git clone https://github.com/gabriel1305/TrabalhoDataOPS.git
+cd TrabalhoDataOPS
+
+
